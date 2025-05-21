@@ -1,0 +1,55 @@
+# General build artifacts
+/build/
+/out/
+/bin/
+/lib/
+*.obj
+*.o
+*.pdb
+*.exp
+*.lib
+*.dll
+*.exe
+*.log
+*.tmp
+*.bak
+*~
+*.make
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# Visual Studio
+*.sln
+*.vcxproj*
+*.vcproj*
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.code-workspace
+.vscode/
+.idea/
+.vs/
+
+# bgfx/bx/bimg
+third_party/bgfx/.build/
+third_party/bx/.build/
+third_party/bimg/.build/
+third_party/bgfx/examples/
+third_party/bx/examples/
+third_party/bimg/examples/
+third_party/bgfx/.build/projects/
+
+# Platform-specific and editor noise
+.DS_Store
+Thumbs.db
+
+# Git index conflicts and permission-denied files
+*.vsidx
