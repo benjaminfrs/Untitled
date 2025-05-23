@@ -1,3 +1,5 @@
+# Project scripts
+setup-env.ps1
 # General build artifacts
 /build/
 /out/
